@@ -26,8 +26,6 @@ frontend/src-tauri/target/
 # ─────────────────────────────────────────────────────────────────────────
 #  Secrets & env
 # ─────────────────────────────────────────────────────────────────────────
-.env
-.env.local
 .env.*.local
 
 # ─────────────────────────────────────────────────────────────────────────
@@ -180,3 +178,7 @@ backend/assets/samples/demo/dubbing/*.src.wav
 
 # Generated Windows MSI diagnostic logs and installer payloads
 /wix-diagnostic-artifacts/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
